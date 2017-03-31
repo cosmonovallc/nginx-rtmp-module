@@ -257,7 +257,7 @@ ngx_rtmp_dash_write_playlist(ngx_rtmp_session_t *s)
 
 
 #define NGX_RTMP_DASH_MANIFEST_HEADER                                          \
-    "<?xml version=\"1.0\"?>\n"                                                \
+    "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n"                                                \
     "<MPD\n"                                                                   \
     "    type=\"dynamic\"\n"                                                   \
     "    xmlns=\"urn:mpeg:dash:schema:mpd:2011\"\n"                            \
